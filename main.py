@@ -1,3 +1,5 @@
+def main():
+  print(encrypt_word(decrypt_word('xyz', 2), 2))
 
 
 """
@@ -30,4 +32,6 @@ def decrypt_word(word, key):
     decrypted_word += decrypt_letter(letter, key)
   return decrypted_word
 
-print(encrypt_word(decrypt_word('xyz', 2), 2))
+
+#program starts running here
+main()
