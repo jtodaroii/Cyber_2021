@@ -1,7 +1,3 @@
-from caesars import *
+from caesars import encrypt_word, decrypt_word
 
-def main():
-  print(encrypt_word(decrypt_word('xyz', 2), 2))
-
-#program starts running here
-main()
+print(encrypt_word(decrypt_word('xyz', 2), 2))
